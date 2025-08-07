@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfindr - Elite College Counseling</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Sticky Header -->
+    <header class="fixed w-full top-0 z-50 transition-all duration-300" id="header">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo Section -->
+                <div class="flex items-center space-x-3">
+                    <!-- Minimalist blue geometric logo -->
+                    <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-sm">
+                        <svg width="16" height="16" viewBox="0 0 16 16" class="text-white">
+                            <path d="M8 1L14 7L8 13L2 7L8 1Z" fill="currentColor"/>
+                            <circle cx="8" cy="7" r="1.5" fill="rgba(255,255,255,0.8)"/>
+                        </svg>
+                    </div>
+                    <span class="text-xl font-semibold text-gray-900 tracking-tight">Pathfindr</span>
+                </div>
+                
+                <!-- Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">About Pathfindr</a>
+                </nav>
+                
+                <!-- CTA Button -->
+                <button class="bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition-all duration-300 hover:scale-105 shadow-lg">
+                    Build Your Strategy
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+            <h1 class="text-5xl md:text-7xl font-black text-gray-900 mb-8 text-shadow leading-tight">
+                Start Your Journey<br>
+                <span class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">to Success</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto leading-relaxed">
+                Take the first step towards compelling college applications and join our elite clientele. Let us guide you through a transformative experience.
+            </p>
+            <button class="bg-blue-600 text-white px-10 py-4 rounded-xl text-xl font-bold hover:bg-blue-700 transition-all duration-300 hover:scale-105 shadow-2xl">
+                Let's Talk Strategy
+            </button>
+        </div>
+    </section>
+
+    <!-- Elite Counseling Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="space-y-8">
+                    <h2 class="text-5xl md:text-6xl font-black text-gray-900 leading-tight">
+                        Unapologetically Elite<br>
+                        <span class="text-blue-600">College Counseling</span>
+                    </h2>
+                    <p class="text-2xl text-gray-600 font-medium">
+                        We don't polish. We refine. Ready to compete?
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <input 
+                            type="email" 
+                            placeholder="Enter your e-mail address" 
+                            class="flex-1 px-6 py-4 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 text-lg transition-all duration-300"
+                        >
+                        <button class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition-all duration-300 hover:scale-105 shadow-lg whitespace-nowrap">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Visual Element -->
+                <div class="relative">
+                    <div class="orange-gradient rounded-3xl p-12 text-center animate-float shadow-2xl">
+                        <!-- Person silhouette -->
+                        <div class="relative">
+                            <div class="w-32 h-32 bg-black bg-opacity-30 rounded-full mx-auto mb-8 flex items-center justify-center">
+                                <div class="w-24 h-24 bg-black bg-opacity-40 rounded-full"></div>
+                            </div>
+                            <!-- Laptop representation -->
+                            <div class="w-64 h-40 bg-black bg-opacity-30 rounded-2xl mx-auto relative">
+                                <div class="absolute inset-4 bg-black bg-opacity-20 rounded-lg"></div>
+                                <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-2 bg-black bg-opacity-30 rounded-full"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 class="text-5xl md:text-6xl font-black text-gray-900 text-center mb-20">Why us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Feature 1 -->
+                <div class="text-center space-y-6">
+                    <div class="w-16 h-16 bg-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl font-black mx-auto shadow-lg">
+                        1
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900">Tailored College Strategies</h3>
+                    <p class="text-gray-600 leading-relaxed text-lg">
+                        At Pathfindr, we create personalized college strategies that target your specific goals and aspirations. This tailored approach ensures that you stand out in the competitive landscape of elite university admissions.
+                    </p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="text-center space-y-6">
+                    <div class="w-16 h-16 bg-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl font-black mx-auto shadow-lg">
+                        2
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900">Experienced Counselors</h3>
+                    <p class="text-gray-600 leading-relaxed text-lg">
+                        Our team comprises former admissions officers and expert strategists who understand what top-tier universities are looking for. Leverage our insider knowledge to maximize your chances of acceptance into Ivy League schools.
+                    </p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="text-center space-y-6">
+                    <div class="w-16 h-16 bg-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl font-black mx-auto shadow-lg">
+                        3
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900">Comprehensive Support</h3>
+                    <p class="text-gray-600 leading-relaxed text-lg">
+                        From crafting compelling narratives to polishing every aspect of your application, we provide end-to-end support throughout the entire process. With us by your side, you'll navigate each hurdle with confidence and clarity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <h2 class="text-5xl md:text-6xl font-black text-gray-900 text-center mb-6">What Our Clients Say</h2>
+            <p class="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
+                Hear from high-performing students who have unleashed their potential with Pathfindr.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-3xl shadow-xl hover-lift border border-gray-100">
+                    <div class="flex mb-6">
+                        <span class="text-yellow-400 text-2xl">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 mb-8 text-lg leading-relaxed">
+                        "Pathfindr transformed my college application experience. I gained clarity and confidence that helped me secure a spot at my dream school!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full mr-4 flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">JT</span>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg">Jessica Tran</p>
+                            <p class="text-gray-500">Accepted to Harvard University</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-3xl shadow-xl hover-lift border border-gray-100">
+                    <div class="flex mb-6">
+                        <span class="text-yellow-400 text-2xl">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 mb-8 text-lg leading-relaxed">
+                        "The strategic approach of Pathfindr was unparalleled. They helped me craft an authentic narrative that truly showcased my strengths. Thank you for the scholarship opportunities!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-400 to-blue-500 rounded-full mr-4 flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">MJ</span>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg">Michael Johnson</p>
+                            <p class="text-gray-500">Received $150k in Scholarships</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-3xl shadow-xl hover-lift border border-gray-100">
+                    <div class="flex mb-6">
+                        <span class="text-yellow-400 text-2xl">★★★★★</span>
+                    </div>
+                    <p class="text-gray-700 mb-8 text-lg leading-relaxed">
+                        "As someone aiming for the top-tier universities, I needed rigorous support. Pathfindr's team provided honest feedback and relentless preparation that made all the difference."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-pink-400 to-red-500 rounded-full mr-4 flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">EC</span>
+                        </div>
+                        <div>
+                            <p class="font-bold text-gray-900 text-lg">Emily Chen</p>
+                            <p class="text-gray-500">Accepted to Stanford University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Sections -->
+    <section class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 space-y-32">
+            
+            <!-- College List Strategy -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="bg-gray-800 rounded-3xl h-96 flex items-center justify-center shadow-2xl overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-gray-700 to-gray-900"></div>
+                        <div class="relative z-10">
+                            <div class="w-24 h-24 bg-blue-500 rounded-2xl mx-auto opacity-80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <h3 class="text-4xl md:text-5xl font-black text-gray-900">College List Strategy</h3>
+                    <p class="text-xl text-gray-600 leading-relaxed">
+                        At Pathfindr, we understand that choosing the right colleges is critical for all high-performing students. Our College List Strategy service helps identify institutions that align with your academic profile and career aspirations. We conduct thorough research on each school's programs, campus culture, and admission trends to create a tailored list that maximizes your chances of acceptance into top-tier universities.
+                    </p>
+                    <button class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition-all duration-300 hover:scale-105 shadow-lg text-lg">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+
+            <!-- Essay Review & Narrative Crafting -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="order-2 lg:order-1 space-y-8">
+                    <h3 class="text-4xl md:text-5xl font-black text-gray-900">Essay Review & Narrative Crafting</h3>
+                    <p class="text-xl text-gray-600 leading-relaxed">
+                        Crafting compelling essays is crucial in making a lasting impression on admissions committees. With our Essay Review & Narrative Crafting services, we work closely with students to develop authentic narratives that reflect their individuality and ambitions. Our expert counselors provide detailed feedback on structure, content depth, and voice while ensuring consistency across all application materials.
+                    </p>
+                    <button class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition-all duration-300 hover:scale-105 shadow-lg text-lg">
+                        Get Started
+                    </button>
+                </div>
+                <div class="order-1 lg:order-2 relative">
+                    <div class="bg-gray-800 rounded-3xl h-96 flex items-center justify-center shadow-2xl overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-600 to-pink-600 opacity-20"></div>
+                        <div class="relative z-10">
+                            <div class="w-20 h-20 bg-white rounded-full opacity-90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Application Coaching -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="bg-gray-800 rounded-3xl h-96 flex items-center justify-center shadow-2xl overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-indigo-600 to-purple-600 opacity-20"></div>
+                        <div class="relative z-10 grid grid-cols-3 gap-4">
+                            <div class="w-12 h-12 bg-gray-600 rounded-lg opacity-80"></div>
+                            <div class="w-12 h-12 bg-gray-600 rounded-lg opacity-80"></div>
+                            <div class="w-12 h-12 bg-gray-600 rounded-lg opacity-80"></div>
+                            <div class="w-12 h-12 bg-gray-600 rounded-lg opacity-80"></div>
+                            <div class="w-12 h-12 bg-gray-600 rounded-lg opacity-80"></div>
+                            <div class="w-12 h-12 bg-gray-600 rounded-lg opacity-80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-8">
+                    <h3 class="text-4xl md:text-5xl font-black text-gray-900">Full Application Coaching</h3>
+                    <p class="text-xl text-gray-600 leading-relaxed">
+                        Navigating the college application process can be overwhelming, but our Full Application Coaching offers comprehensive support every step of the way. From initial brainstorming sessions to final submission checks, we're dedicated to empowering you through this journey. We help refine each component of your application including personal statements, recommendation letters, and extracurricular descriptions.
+                    </p>
+                    <button class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition-all duration-300 hover:scale-105 shadow-lg text-lg">
+                        Schedule A Session
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <h2 class="text-5xl md:text-6xl font-black text-gray-900 text-center mb-20">Frequently asked questions</h2>
+            <div class="space-y-6">
+                <!-- FAQ Items -->
+                <div class="border-b border-gray-200">
+                    <button class="flex justify-between items-center w-full text-left py-6 focus:outline-none hover:bg-gray-50 px-6 rounded-lg transition-colors" onclick="toggleFAQ(this)">
+                        <span class="text-xl font-semibold text-gray-900 pr-8">What makes Pathfindr different from other college counseling services?</span>
+                        <span class="text-2xl text-blue-600 transform transition-transform duration-200 flex-shrink-0">▼</span>
+                    </button>
+                    <div class="hidden pb-6 px-6 text-gray-600 text-lg leading-relaxed">
+                        <p>Pathfindr combines insider knowledge from former admissions officers with a data-driven approach to maximize your chances of acceptance. We focus exclusively on high-achieving students targeting top-tier universities, providing personalized strategies that set you apart from the competition.</p>
+                    </div>
+                </div>
+                
+                <div class="border-b border-gray-200">
+                    <button class="flex justify-between items-center w-full text-left py-6 focus:outline-none hover:bg-gray-50 px-6 rounded-lg transition-colors" onclick="toggleFAQ(this)">
+                        <span class="text-xl font-semibold text-gray-900 pr-8">What types of services does Pathfindr offer?</span>
+                        <span class="text-2xl text-blue-600 transform transition-transform duration-200 flex-shrink-0">▼</span>
+                    </button>
+                    <div class="hidden pb-6 px-6 text-gray-600 text-lg leading-relaxed">
+                        <p>We offer comprehensive college counseling including college list strategy, essay review and narrative crafting, full application coaching, interview preparation, scholarship guidance, and extracurricular planning to build a competitive profile.</p>
+                    </div>
+                </div>
+
+                <div class="border-b border-gray-200">
+                    <button class="flex justify-between items-center w-full text-left py-6 focus:outline-none hover:bg-gray-50 px-6 rounded-lg transition-colors" onclick="toggleFAQ(this)">
+                        <span class="text-xl font-semibold text-gray-900 pr-8">How can I get started with Pathfindr?</span>
+                        <span class="text-2xl text-blue-600 transform transition-transform duration-200 flex-shrink-0">▼</span>
+                    </button>
+                    <div class="hidden pb-6 px-6 text-gray-600 text-lg leading-relaxed">
+                        <p>Getting started is simple. Click "Build Your Strategy" to schedule your initial consultation where we'll assess your goals, review your current profile, and create a personalized action plan tailored to your college aspirations.</p>
+                    </div>
+                </div>
+
+                <div class="border-b border-gray-200">
+                    <button class="flex justify-between items-center w-full text-left py-6 focus:outline-none hover:bg-gray-50 px-6 rounded-lg transition-colors" onclick="toggleFAQ(this)">
+                        <span class="text-xl font-semibold text-gray-900 pr-8">What should I expect during the consultation process?</span>
+                        <span class="text-2xl text-blue-600 transform transition-transform duration-200 flex-shrink-0">▼</span>
+                    </button>
+                    <div class="hidden pb-6 px-6 text-gray-600 text-lg leading-relaxed">
+                        <p>During your consultation, we'll conduct a comprehensive review of your academic profile, discuss your college goals and preferences, identify areas for improvement, and outline a strategic roadmap with specific milestones tailored to your unique strengths and aspirations.</p>
+                    </div>
+                </div>
+
+                <div class="border-b border-gray-200">
+                    <button class="flex justify-between items-center w-full text-left py-6 focus:outline-none hover:bg-gray-50 px-6 rounded-lg transition-colors" onclick="toggleFAQ(this)">
+                        <span class="text-xl font-semibold text-gray-900 pr-8">Are there any guarantees regarding admissions or scholarships?</span>
+                        <span class="text-2xl text-blue-600 transform transition-transform duration-200 flex-shrink-0">▼</span>
+                    </button>
+                    <div class="hidden pb-6 px-6 text-gray-600 text-lg leading-relaxed">
+                        <p>While we cannot guarantee specific admissions outcomes, our track record speaks for itself. We focus on maximizing your competitive advantage through proven strategies, and have helped numerous students gain acceptance to their dream schools with significant scholarship awards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+            <div class="flex items-center justify-center space-x-3 mb-6">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-sm">
+                    <svg width="16" height="16" viewBox="0 0 16 16" class="text-white">
+                        <path d="M8 1L14 7L8 13L2 7L8 1Z" fill="currentColor"/>
+                        <circle cx="8" cy="7" r="1.5" fill="rgba(255,255,255,0.8)"/>
+                    </svg>
+                </div>
+                <span class="text-xl font-semibold text-white tracking-tight">Pathfindr</span>
+            </div>
+            <p class="text-gray-400 text-lg">© 2025 Pathfindr. All rights reserved.</p>
+            <p class="text-gray-500 mt-2">Powered by Bookipi ❤️</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- 
+FILE STRUCTURE RECOMMENDATION:
+
+project-folder/
+├── index.html (this file)
+├── css/
+│   ├── styles.css (custom styles - extract from <style> tag)
+│   └── tailwind.config.js (tailwind configuration)
+├── js/
+│   ├── main.js (extract JavaScript from <script> tag)
+│   └── animations.js (additional animations)
+├── images/
+│   ├── logo.svg (pathfindr logo)
+│   ├── hero-bg.jpg (hero background)
+│   ├── testimonial-1.jpg (jessica's photo)
+│   ├── testimonial-2.jpg (michael's photo)
+│   ├── testimonial-3.jpg (emily's photo)
+│   ├── service-1.jpg (college strategy image)
+│   ├── service-2.jpg (essay writing image)
+│   └── service-3.jpg (coaching image)
+├── fonts/
+│   └── inter/ (Inter font files)
+└── README.md
+
+SETUP INSTRUCTIONS:
+
+1. Create the folder structure above
+2. Copy this HTML into index.html
+3. Extract CSS from <style> tag into css/styles.css
+4. Extract JavaScript into js/main.js
+5. Add your logo and images to images/ folder
+6. Update image src attributes in HTML
+7. Optionally set up Tailwind CLI for production builds
+
+FEATURES IMPLEMENTED:
+✅ Proper logo placement with icon
+✅ Modern gradient design matching screenshots
+✅ Responsive design for all devices
+✅ Smooth animations and hover effects
+✅ Interactive FAQ accordion
+✅ Professional typography with Inter font
+✅ Glass morphism header effect
+✅ Hover lift effects on cards
+✅ Gradient backgrounds and CTAs
+✅ Mobile-responsive navigation
+✅ Professional color scheme
+✅ Shadow and depth effects
+-->

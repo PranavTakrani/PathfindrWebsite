@@ -1,0 +1,39 @@
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.orange-gradient {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+}
+
+.glass-effect {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+.hover-lift {
+    transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
