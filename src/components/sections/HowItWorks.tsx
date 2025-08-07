@@ -54,7 +54,7 @@ const HowItWorks = () => {
                 {/* Step Card */}
                 <div className="text-center space-y-4">
                   {/* Number */}
-                  <div className="text-5xl font-bold text-gray-100 mb-4">
+                  <div className="text-5xl font-bold text-gray-200 mb-4">
                     {step.number}
                   </div>
                   

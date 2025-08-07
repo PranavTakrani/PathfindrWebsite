@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowRight, Sparkles } from 'lucide-react'
+import { ArrowRight, Sparkles, Star, StarHalf } from 'lucide-react'
 import Image from 'next/image'
 
 const Hero = () => {
@@ -28,10 +28,11 @@ const Hero = () => {
               Stand Out.
               <span className="text-gradient"> Get Accepted.</span>
             </h1>
-            
+          
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              AI-powered college counseling for high-achieving students who want more than generic advice.
+              AI-powered college counseling for high-achieving students who want to be 
+              <span className='text-gradient font-semibold'> unapologetically elite.</span>
             </p>
             
             {/* CTA Buttons */}
@@ -46,7 +47,7 @@ const Hero = () => {
             </div>
             
             {/* Trust indicators */}
-            <div className="flex items-center gap-6 pt-4">
+            <div className="flex items-center gap-4 pt-4">
               <div className="flex -space-x-2">
                 {[1, 2, 3, 4].map((i) => (
                   <div 
@@ -55,9 +56,19 @@ const Hero = () => {
                   />
                 ))}
               </div>
-              <p className="text-sm text-gray-600">
-                <span className="font-semibold text-gray-900">500+</span> students admitted to dream schools
-              </p>
+              <div className='flex items-center -space-x-1'>
+                <p className="text-sm text-gray-600 flex items-center -space-x-3">
+                  {/* <span className="font-semibold text-gray-900">500+</span> students admitted to dream schools */}
+                  {[1, 2, 3, 4].map((i) => (
+                    <Star key={i} className="w-8 h-8 fill-yellow-400 stroke-white stroke-[1.5]" />
+                  ))}
+                  <StarHalf className="w-8 h-8 fill-yellow-400 stroke-white stroke-[1.5]" />
+                </p>
+                <p className="text-sm text-gray-600 font-semibold rounded-2xl bg-white padding-x-4">
+                  4.9
+                </p>
+              </div>
+              
             </div>
           </div>
           

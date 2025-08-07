@@ -15,15 +15,15 @@ const Features = () => {
       icon: Target,
       title: 'Strategic Application Planning',
       description: 'Personalized college list and timeline strategy based on your profile, goals, and admission data.',
-      color: 'text-secondary',
-      bgColor: 'bg-secondary/10',
+      color: 'text-primary',
+      bgColor: 'bg-primary/10',
     },
     {
       icon: Users,
       title: '1-on-1 Expert Support',
       description: 'Direct guidance from a Carnegie Mellon CS admit who understands what top schools are looking for.',
-      color: 'text-purple-600',
-      bgColor: 'bg-purple-100',
+      color: 'text-primary',
+      bgColor: 'bg-primary/10',
     },
   ]
 

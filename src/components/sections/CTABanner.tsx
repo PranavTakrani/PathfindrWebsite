@@ -15,16 +15,17 @@ const CTABanner = () => {
         <div className="text-center max-w-3xl mx-auto space-y-6">
           {/* Icon */}
           <div className="w-16 h-16 bg-white/20 rounded-full mx-auto flex items-center justify-center mb-6">
-            <Calendar className="w-8 h-8 text-white" />
+            <Calendar className="w-8 h-8 text-primary" />
           </div>
           
           {/* Headline */}
-          <h2 className="text-white font-bold">
-            Ready to Build a Standout Application?
+          <h2 className="text-black font-bold">
+            Ready to Build a 
+            <span className='text-gradient'> Standout Application?</span>
           </h2>
           
           {/* Subtext */}
-          <p className="text-xl text-white/90">
+          <p className="text-xl text-black/90">
             Schedule your free consultation and get personalized guidance today. 
             Limited spots available for the upcoming application season.
           </p>
@@ -35,13 +36,13 @@ const CTABanner = () => {
               Book Free Consultation
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="btn border-2 border-white text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold">
+            <button className="btn border-2 border-white text-primary hover:bg-white/10 px-8 py-4 text-lg font-semibold">
               View Pricing Plans
             </button>
           </div>
           
           {/* Urgency Indicator */}
-          <p className="text-white/80 text-sm pt-4">
+          <p className="text-black/80 text-sm pt-4">
             ⚡ Only 5 spots remaining for this month
           </p>
         </div>

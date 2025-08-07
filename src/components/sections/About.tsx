@@ -47,7 +47,7 @@ const About = () => {
             <div>
               <p className="text-primary font-semibold mb-2">Meet the Founder</p>
               <h2 className="font-bold mb-4">
-                Hi, I'm <span className="text-gradient">[Your Name]</span>
+                Hi, I'm <span className="text-gradient">Pranav Takrani</span>
               </h2>
             </div>
             
