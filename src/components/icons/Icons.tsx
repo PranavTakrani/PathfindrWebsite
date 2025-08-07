@@ -1,0 +1,32 @@
+// This file can be used to create custom SVG icons or export configured Lucide icons
+// For now, we're using Lucide React icons directly in components
+
+export { 
+  ArrowRight,
+  ArrowUp,
+  Award,
+  BookOpen,
+  Brain,
+  Calendar,
+  CheckCircle,
+  Download,
+  FileText,
+  Instagram,
+  Linkedin,
+  Mail,
+  Menu,
+  Phone,
+  Quote,
+  Rocket,
+  Shield,
+  Sparkles,
+  Star,
+  Target,
+  TrendingUp,
+  Trophy,
+  Twitter,
+  Users,
+  Video,
+  X,
+  Zap,
+} from 'lucide-react'
